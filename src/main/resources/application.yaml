@@ -1,0 +1,13 @@
+spring:
+    application:
+        name: socialnetwork
+
+    datasource:
+        url: "jdbc:postgresql://localhost:5544/social"
+        username: "pguser"
+        password: "trqAA27qra"
+        driver-class-name: org.postgresql.Driver
+
+server:
+    port: 8090
+
